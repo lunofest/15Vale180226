@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta property="og:title" content="Valentina - Mis XV Años" />
+    <meta property="og:description"
+        content="¡La cuenta regresiva ha comenzado! Descubre los detalles y confirma tu asistencia." />
+
+    <meta property="og:image"
+        content="https://lunofest.github.io/15Vale180226/assets/imagenes/miniatura.png" />
+    <meta property="og:url" content="https://lunofest.github.io/15Vale180226/" />
+    <meta property="og:type" content="website" />
+
+    <meta property="og:image:type" content="image/png" />
+
+
+
+    <link rel="stylesheet" href="estilos/normalize.css?v17">
+    <link rel="stylesheet" href="estilos/styles.css?v17">
+    <link rel="stylesheet" href="estilos/mediaQueries.css?v17">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+    <script src="cache.js"></script>
+    <script src="main.js"></script>
+
+    <title>Mis 15 años</title>
+</head>
+
+<body>
+
+
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox__content">
+            <h2 class="lightbox__title">Mis XV Valentina</h2>
+            <p class="lightbox__text">Quiero que seas parte de este momento tan importante para mi</p>
+            <div class="lightbox__buttons">
+                <button id="enterWithMusic" class="bloque__button lightbox__button">Ingresar</button>
+            </div>
+        </div>
+    </div>
+
+    <header class="header">
+
+
+        <img class="header__logo" src="assets/logo.webp" alt="">
+        <div class="arrow-container">
+            <i class="fa-solid fa-chevron-down animate__animated animate__bounce animate__infinite"></i>
+        </div>
+
+        <button class="music__icon" id="playPauseBtn">
+            <i id="playPauseIcon" class="fas fa-play"></i>
+        </button>
+
+    </header>
+
+    <main>
+
+        <section class="temporizador">
+            <h5 class="temporizador__mensaje">
+                ¡Te espero para festejar este gran momento de mi vida!
+            </h5>
+            <div class="temporizador__contenedor-tiempo">
+                <div class="temporizador__tiempo">
+                    <span class="temporizador__valor">000</span>
+                    <span class="temporizador__etiqueta">días</span>
+                </div>
+                <div class="temporizador__tiempo">
+                    <span class="temporizador__valor">00</span>
+                    <span class="temporizador__etiqueta">hs</span>
+                </div>
+                <div class="temporizador__tiempo">
+                    <span class="temporizador__valor">00</span>
+                    <span class="temporizador__etiqueta">min</span>
+                </div>
+                <div class="temporizador__tiempo">
+                    <span class="temporizador__valor">00</span>
+                    <span class="temporizador__etiqueta">seg</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="bloque">
+            <div class="bloque__container fraseElegida">
+                <img src="assets/imagenes/separador.webp" class="frase__separador" alt="">
+                <p class="bloque__paragraph1">
+                    "QUIERO COMENZAR MI CUMPLE CON LAS PERSONAS QUE AMO Y MAS FELIZ ME HACEN. <br> TE INVITO A LA MISA
+                    DE ACCION DE GRACIAS"
+                </p>
+                <img src="assets/imagenes/separador.webp" class="frase__separador" alt="">
+
+
+            </div>
+        </section>
+
+
+        <section class="fotos">
+
+            <img class="fotos__flores" src="assets/imagenes/flores3.webp" alt="" data-aos="fade-right">
+
+
+
+            <h3 class="fotos__title">Mi Book de Fotos</h3>
+
+
+
+
+            <section class="fotos">
+
+
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="assets/imagenes/fotos/uno.webp" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/imagenes/fotos/dos.webp" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/imagenes/fotos/tres.webp" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/imagenes/fotos/cuatro.webp" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/imagenes/fotos/cinco.webp" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/imagenes/fotos/seis.webp" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/imagenes/fotos/siete.webp" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/imagenes/fotos/ocho.webp" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/imagenes/fotos/nueve.webp" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/imagenes/fotos/diez.webp" />
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+        </section>
+
+
+
+        <section class="bloque">
+            <div class="bloque__container1">
+
+                <img class="bloque__img" src="assets/imagenes/calendario.webp" alt="">
+
+                <h4 class="bloque__title">Cuando?</h4>
+
+                <p class="bloque__paragraph">
+                    Miércoles 18 de Febrero del 2026<br>
+                    20:00hs <br>
+
+                </p>
+
+
+
+            </div>
+        </section>
+
+
+        <section class="bloque">
+            <div class="bloque__container">
+
+                <img class="bloque__img2" src="assets/vectores/ubicacionICON.svg" alt="">
+
+                <h4 class="bloque__title1">Donde</h4>
+
+                <p class="bloque__paragraph3">
+                    Parroquia Nuestra Señora del Valle <br>Florida 251, Yerba Buena
+                </p>
+
+                <a class="bloque__button" href="https://maps.app.goo.gl/Jx8zBAN3NXNHA1tn6">Ver ubicacion</a>
+
+            </div>
+        </section>
+
+
+        <section style="display: none;" class="bloque">
+            <div class="bloque__container">
+                <img class="bloque__img_confirmacion" src="assets/imagenes/confirmar.webp" alt="Icono de regalo">
+                <h4 class="bloque__title">CONFIRMACIÓN DE ASISTENCIA</h4>
+                <h5 class="parrafo parrafo__asistencia" data-aos="fade-right">Por favor confirmar hasta el día 01 de
+                </h5>
+
+                <div class="bloque__inputs">
+                    <input type="text" id="name" placeholder="Tu nombre" required>
+                    <div class="radios">
+                        <div class="radio-option">
+                            <input type="radio" id="si-asistire" name="asistencia" value="sí asistiré">
+                            <label class="radio-label" for="si-asistire">
+                                <span class="radio-button"></span>
+                                SÍ ASISTIRÉ
+                            </label>
+                        </div>
+
+                        <div class="radio-option">
+                            <input type="radio" id="no-asistire" name="asistencia" value="no asistiré">
+                            <label class="radio-label" for="no-asistire">
+                                <span class="radio-button"></span>
+                                NO ASISTIRÉ
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <button class="bloque__button" id="confirmar-asistencia">Confirmar asistencia</button>
+            </div>
+        </section>
+
+        <section class="bloque">
+            <div class="bloque__container bloque__container5">
+
+                <img class="bloque__img" src="assets/vectores/regalos.svg" alt="">
+
+                <h4 class="bloque__title">REGALOS</h4>
+
+                <p class="bloque__paragraph bloque__paragraphREGALOS">
+                    "Nada es más importante que tu presencia, pero si deseas hacerme unpresente, puedes depositarlo en
+                    la siguiente cuenta"
+                </p>
+
+                <button id="mostrarBoton" class="bloque__button">Ver datos bancarios</button>
+                <div id="textoDesplegable" class="escondido regalos__data">
+
+                    <h6 class="regalo__date">Alias:</h6>
+                    <p class="name__alias" id="alias">VALETULA2225</p>
+                    <button class="alias__button" onclick="copyText()">
+                        <img class="copiar__icon" src="assets/vectores/copiar.svg" alt="">
+                        Copiar Alias</button>
+                    <div class="copy-message" id="copyMessage">¡Copiado!</div>
+
+
+                    <div class="lineRegalos"></div>
+
+
+                    <!-- <h6 class="regalo__date">CBU:</h6>
+                    <p class="name__cbu" id="cbuAlias">0000003100063126415369</p>
+                    <button class="cbu__button" onclick="copyCbuText()">
+                        <img class="copiar__icon" src="assets/vectores/copiar.svg" alt="">
+                        Copiar CBU</button>
+                    <div class="copy-message" id="copyCbuMessage" style="display: none;">¡Copiado!</div> -->
+                </div>
+            </div>
+        </section>
+
+
+
+        <section style="display: none;" class="bloque">
+            <div class="bloque__container bloque__container2">
+
+                <img class="bloque__imgDRESSCODE" src="assets/imagenes/dresscode.webp" alt="">
+
+                <h4 class="bloque__title bloque__title2">DRESSCODE</h4>
+
+                <p class="bloque__paragraph bloque__paragraph2">
+                    Elegante Riguroso
+                </p>
+
+
+
+            </div>
+        </section>
+
+
+
+        <section class="bloque">
+            <div class="bloque__container bloque__container3">
+
+
+
+                <h4 class="bloque__title bloque__titleINSTA">VALE</h4>
+
+
+
+            </div>
+        </section>
+
+        <section style="display: none;" class="bloque">
+            <div class="bloque__container bloque__container4">
+                <img class="bloque__img" src="assets/imagenes/playlist.webp" alt="">
+                <h4 class="bloque__title">¡PLAYLIST!</h4>
+                <p class="bloque__paragraph">
+                    ¡Ayúdame sugiriendo las canciones que pensas que no pueden faltar en la fiesta!
+                </p>
+                <div class="playlist__inputs">
+                    <input id="nombre" class="input__playlist" type="text" placeholder="tu nombre">
+                    <input id="recomendacion" class="input__playlist" type="text"
+                        placeholder="musica o link recomendado">
+                </div>
+                <button class="bloque__button" onclick="enviarWhatsApp()">Enviar recomendación</button>
+            </div>
+        </section>
+
+
+
+    </main>
+
+
+    <section class="footer">
+        <h3 class="footer__frase">¡Te espero!</h3>
+    </section>
+
+    <footer class="footer__final1">
+        <div class="footer__inner1">
+            <div class="footer__brand1">
+                <p class="footer__text1">
+                    Página creada por <strong>Luno Digitales</strong>
+                    para los 15 años de <strong>VALE</strong>.<br>
+                    Todos los derechos reservados. <br>Visítano en:
+                </p>
+
+            </div>
+
+
+            <a class="footer__site1" href="https://www.luno.net.ar" target="_blank" rel="noopener">www.luno.net.ar</a>
+            <div class="footer__social3">
+                <p class="footer__follow1">Síguenos en nuestras redes</p>
+                <a class="icon-link1"
+                    href="https://www.instagram.com/lunodigitales?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    aria-label="Instagram de Luno Digitales">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true">
+                        <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"
+                            fill="none" />
+                        <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.5" fill="none" />
+                        <circle cx="18.2" cy="5.8" r="0.7" fill="currentColor" />
+                    </svg>
+                </a>
+                <a class="icon-link1" href="https://www.facebook.com/profile.php?id=61581720891655" target="_blank"
+                    rel="noopener" aria-label="Facebook de Luno Digitales">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+    <style>
+        /* ///////////////// footer /////////////////////// */
+
+
+        .footer__final1 {
+            background: linear-gradient(180deg, #ffe4be 0%, #fff5e0 100%);
+            color: #414141;
+            padding: 1.5em 0;
+
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+            font-size: 14px;
+            width: clamp(100px, 100%, 1800px);
+            text-align: center;
+            margin: 0 auto 0;
+        }
+
+        .footer__inner1 {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            align-items: center;
+            text-align: center;
+            padding: 0 1em;
+        }
+
+        .footer__text1 {
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        .footer__text1 strong {
+            color: #0b0b0b;
+            font-weight: 700;
+        }
+
+        .footer__site1 {
+            display: inline-block;
+            margin-top: 8px;
+            text-decoration: none;
+            color: #414141;
+            font-weight: 600;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        .footer__site1:hover {
+            text-decoration: underline;
+        }
+
+        .footer__social3 {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 5px;
+        }
+
+        .footer__follow1 {
+            margin: 0;
+            font-size: 14px;
+            color: #414141;
+            font-weight: 500;
+        }
+
+        .footer__final1 .icon-link1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #414141;
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .footer__final1 .icon-link1 svg {
+            width: 28px !important;
+            height: 28px !important;
+            display: block;
+            margin: 0;
+        }
+
+        .footer__final1 .icon-link1:hover {
+            transform: translateY(-3px);
+            background: rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script src="javascript/script.js?v17"></script>
+</body>
+
+</html>
