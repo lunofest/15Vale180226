@@ -64,7 +64,7 @@
 // script.js
 document.addEventListener('DOMContentLoaded', () => {
     // Configura aquí la fecha y hora objetivo en el formato deseado
-    const fechaObjetivo = new Date("february 18, 2026 20:00:00").getTime();
+    const fechaObjetivo = new Date("february 18, 2026 19:30:00").getTime();
 
     function updateTimer() {
         const ahora = new Date().getTime();
